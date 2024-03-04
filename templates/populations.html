@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/site/styles/general.css">
+    <link rel="stylesheet" href="/site/styles/populations.css">
+    <link rel="icon" href="/site/images/Epita.png">
+    <title>Population MSc %course%</title>
+</head>
+
+<body>
+    <div class="populations-title-wrapper">
+        <p class="populations-title"><a href="/site/index.html">Home</a> / Population - <span class="bold-text">M.Sc.
+                %course% %instake_year%</span>
+        </p>
+    </div>
+
+    <!-- Students -->
+    <div class="students-wrapper">
+        <h3 class="students-title">Students</h3>
+
+        <table>
+            <tr>
+                <th>Email</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Passed</th>
+            </tr>
+            %populate_students%
+        </table>
+    </div>
+
+    <!-- Courses -->
+    <div class="courses-wrapper">
+        <h3 class="courses-title">Courses</h3>
+
+        <table>
+            <tr>
+                <th>Course ID</th>
+                <th>Name</th>
+                <th>Sessions Count</th>
+                %classes%
+            </tr>
+        </table>
+    </div>
+
+    <!-- Construction Date -->
+    <div id="constructionDate">
+        Website Last Generation: <span id="lastUpdatedDate"></span>
+    </div>
+
+    <script src="/site/scripts/last-construction.js"></script>
+</body>
+
+</html>
