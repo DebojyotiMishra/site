@@ -1,0 +1,89 @@
+<!-- Debojyoti Mishra -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/populations.css">
+    <link rel="icon" href="./images/Epita.png">
+    <title>Home</title>
+</head>
+<body>    
+    <div class="welcome-message-wrapper">
+        <p class="welcome-message">Welcome, <span class="bold-text">Debojyoti</span></p>
+    </div>
+
+    <!-- Active Populations -->
+    <div class="active-populations">
+        <h2 class="activepop-title">Active Populations</h2>
+        <hr>
+        <p class="year-label">Fall 2020</p>
+        <div class="activepop-programs">   
+            <ol class="activepop-programs-ol">
+                <li class="activepop-programs-li"><a href="./populations/2020/msc-ais.html">Msc - Artificial Intelligence Systems - F2020 (3 Students) ↗︎</a></li>
+                <li class="activepop-programs-li"><a href="./populations/2020/msc-cs.html">Msc - Cyber Security - F2020 (5 Students) ↗︎</a></li>
+                <li class="activepop-programs-li"><a href="./populations/2020/msc-dsa.html">MSc - Data Science and Analytics - F2020 (8 Students) ↗︎</a></li>
+                <li class="activepop-programs-li"><a href="./populations/2020/msc-ism.html">Msc - Information Systems Management - F2020 (4 Students) ↗︎</a></li>
+                <li class="activepop-programs-li"><a href="./populations/2020/msc-se.html">MSc - Software Engineering - F2020 (5 Students) ↗︎</a></li>
+            </ol>
+        </div>
+        
+        <p class="year-label">Spring 2021</p>
+        <div class="activepop-programs">   
+            <ol class="activepop-programs-ol">
+                <li class="activepop-programs-li"><a href="./populations/2021/msc-ais.html">Msc - Artificial Intelligence Systems - S2021 (4 Students) ↗︎</a></li>
+                <li class="activepop-programs-li"><a href="./populations/2021/msc-cs.html">Msc - Cyber Security - S2021 (5 Students) ↗︎</a></li>
+                <li class="activepop-programs-li"><a href="./populations/2021/msc-dsa.html">MSc - Data Science and Analytics - S2021 (7 Students) ↗︎</a></li>
+                <li class="activepop-programs-li"><a href="./populations/2021/msc-ism.html">Msc - Information Systems Management - S2021 (5 Students) ↗︎</a></li>
+                <li class="activepop-programs-li"><a href="./populations/2021/msc-se.html">MSc - Software Engineering - S2021 (4 Students) ↗︎</a></li>
+            </ol>
+        </div>
+
+        <div class="activepop-chart">
+            <img src="./images/pie_chart.png" alt="Pie Chart" width="650">
+        </div>
+    </div>
+    
+    <!--  Overall Attendance -->
+    <div class="overall-attendance">
+        <h2 class="overall-attendance-title">Overall Attendance</h2>
+        <hr>
+        <p class="year-label">Fall 2020</p>
+        <div class="overall-attendance-programs">
+            <ol class="overall-attendance-programs-ol">
+                <li class="overall-attendance-programs-li">Msc - Artificial Intelligence Systems - F2020 (74.07%)</li>
+                <li class="overall-attendance-programs-li">Msc - Cyber Security - F2020 (70.00%)</li>
+                <li class="overall-attendance-programs-li">MSc - Data Science and Analytics - F2020 (69.17%)</li>
+                <li class="overall-attendance-programs-li">Msc - Information Systems Management - F2020 (71.43%%)</li>
+                <li class="overall-attendance-programs-li">MSc - Software Engineering - F2020 (73.14%%)</li>
+            </ol>
+        </div>
+        <div class="overall-attendance-chart">
+            <img src="./images/bar_chart_2020.png" alt="Bar Chart" width="650">
+        </div>
+
+        <p class="year-label">Spring 2021</p>
+        <div class="overall-attendance-programs">
+            <ol class="overall-attendance-programs-ol">
+                <li class="overall-attendance-programs-li">Msc - Artificial Intelligence Systems - S2021 (75.00%)</li>
+                <li class="overall-attendance-programs-li">Msc - Cyber Security - S2021 (63.89%)</li>
+                <li class="overall-attendance-programs-li">MSc - Data Science and Analytics - S2021 (73.89%)</li>
+                <li class="overall-attendance-programs-li">Msc - Information Systems Management - S2021 (69.14%)</li>
+                <li class="overall-attendance-programs-li">MSc - Software Engineering - S2021 (68.37%)</li>
+            </ol>
+        </div>
+        <div class="overall-attendance-chart">
+            <img src="./images/bar_chart_2021.png" alt="Bar Chart" width="650">
+        </div>
+    </div>
+
+    <!-- Construction Date -->
+    <div id="constructionDate">
+        Website Last Generation: <span id="lastUpdatedDate"></span>
+    </div>
+
+    <script src="./scripts/last-construction.js"></script>
+</body>
+</html>
